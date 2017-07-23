@@ -616,7 +616,7 @@ com_android_tts_compat_SynthProxy_getLanguage(JNIEnv *env, jobject thiz, jlong j
 
 
 // Dalvik VM type signatures
-static JNINativeMethod gMethods[] = {
+static const JNINativeMethod gMethods[] = {
     {   "native_stop",
         "(J)I",
         (void*)com_android_tts_compat_SynthProxy_stop
